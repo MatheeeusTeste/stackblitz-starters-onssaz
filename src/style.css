@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+
+html {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(218, 249, 255, 1) 35%,
+    rgba(155, 195, 240, 1) 100%
+  );
+}
+html,
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  min-height: 100%;
+}
+.box-login {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px -10px;
+  border: 1px solid white;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.box-login h1 {
+  margin: 0.5rem 0;
+}
+.box-login input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.box-login button {
+  display: block;
+  width: 100%;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  background: #ddd;
+  border: none;
+}
+.box-login button[type='submit'] {
+  background: rgb(0, 110, 255);
+  color: white;
+}
+.box-login button[type='submit']:hover {
+  background: rgb(0, 174, 255);
+}

@@ -1,0 +1,56 @@
+.filme {
+  background: #fff;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: #00000044 10px 0 20px -10px;
+  transition: all ease-in-out 200ms;
+  transform-origin: center bottom;
+}
+.filme:hover {
+  transform: scale(1.05);
+}
+.filme img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.filme small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00000055;
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  backdrop-filter: blur(10px);
+}
+.filme div {
+  padding: 1rem;
+}
+.filme div b {
+  display: block;
+}
+.filme button {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  background: #00000088;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  transition: all ease-in-out 200ms;
+  opacity: 0;
+}
+.filme:hover button {
+  top: 25%;
+  opacity: 1;
+}
+
+
+
